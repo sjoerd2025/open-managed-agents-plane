@@ -170,10 +170,10 @@
   // need to edit. The dashboard discovers bindings via
   // `scripts/sync-vpc-bindings.mjs`, which runs on `prebuild`.
   //
-  //    "vpc_networks": [
-  //      { "binding": "MESH", "network_id": "cf1:network", "remote": true }
-  //    ],
-  //    "vpc_services": [
-  //      { "binding": "INTERNAL_API", "service_id": "00000000-0000-0000-0000-000000000000" }
-  //    ],
+ "vpc_networks": [
+        { "binding": "MESH", "network_id": "cf1:network", "remote": true }
+      ],
+      "vpc_services": [
+        { "binding": "INTERNAL_API", "service_id": "00000000-0000-0000-0000-000000000000" }
+    ],
 }
