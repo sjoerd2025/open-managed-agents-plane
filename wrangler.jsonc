@@ -171,7 +171,7 @@
   // `scripts/sync-vpc-bindings.mjs`, which runs on `prebuild`.
   //
  "vpc_networks": [
-        { "binding": "MESH", "network_id": "cf1:network", "remote": true }
+        { "binding": "MESH", "network_id": "0aee5ed0-6389-41c4-89e9-e91b86c6cc23", "remote": true }
       ],
       "vpc_services": [
         { "binding": "INTERNAL_API", "service_id": "00000003-00000007-000050bc-d78aff9df4ca4d2c468f121ab60ce3db" }
